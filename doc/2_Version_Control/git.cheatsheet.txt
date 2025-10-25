@@ -12,3 +12,11 @@ git add # adds file to "staging area"
 git status # tells you status of files i.e. whether added or not
 git log # shows you Git history "tree" w/ newest commit at top
 git diff # tells you the difference in the old and new files e.g. what text has been added
+
+General Git Workflow
+1. checkout main branch
+2. pull remote changes to local repo to ensure main branch is up-to-date
+3. create a lesson# branch for each lesson
+4. do all the work for that lesson on that branch; create commits when achieving goals and milestones
+5. at the end of a lesson, push lesson# to github
+6. experiment and try to figure things out
