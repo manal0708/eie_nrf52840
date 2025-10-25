@@ -1,0 +1,8 @@
+git commit # records snapshot of work
+git branch # branch off of main code; allows edits without changing main code
+git checkout # allows you to switch btwn branches
+git pull # pulls from remote to local and combines with merge
+git push # pushes from local to remote
+git merge # takes change from source branch and combines into target branch; two parents
+git rebase # no merge; rewrites to main; doesn't preserve entire history
+git fetch # retrieves from remote but no merging
