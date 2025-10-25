@@ -20,3 +20,10 @@ General Git Workflow
 4. do all the work for that lesson on that branch; create commits when achieving goals and milestones
 5. at the end of a lesson, push lesson# to github
 6. experiment and try to figure things out
+
+Some notes:
+- Checking out a different branch will make the files in that branch disappear on VS code as well i.e. you will need
+to go back to that branch to see those files again
+- Making lesson3 branch and checking it out, for example, means I can't see git.cheatsheet.txt anymore
+- Always save in VS code before committing, otherwise nothing will change
+- Generally procedure is: git add (adds modified file to "stage") -> git commit to take screenshot w/ message -> git push to push to remote
