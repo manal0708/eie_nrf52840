@@ -3,6 +3,12 @@ git branch # branch off of main code; allows edits without changing main code
 git checkout # allows you to switch btwn branches
 git pull # pulls from remote to local and combines with merge
 git push # pushes from local to remote
+    -> note: -u <remote> <branch> is needed the first time you push to a branch
+    as it tells github to make this branch on the remote 
 git merge # takes change from source branch and combines into target branch; two parents
 git rebase # no merge; rewrites to main; doesn't preserve entire history
 git fetch # retrieves from remote but no merging
+git add # adds file to "staging area"
+git status # tells you status of files i.e. whether added or not
+git log # shows you Git history "tree" w/ newest commit at top
+git diff # tells you the difference in the old and new files e.g. what text has been added
